@@ -16,6 +16,11 @@ To run this application, execute the following commands:
     ```
     $ gulp dev
     ```
+    Note: If you run into problems with gulp and babel file run:
+      ```
+      npm install -g gulp
+      npm install --save-dev babel-cli babel-preset-react
+      ```
 
   3. Create the app distribution to be used by the back-end server
 
